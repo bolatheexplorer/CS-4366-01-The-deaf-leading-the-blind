@@ -1,0 +1,124 @@
+/* General styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header */
+header{
+  background-color: #353535;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation bar styles */
+#navigation_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #353535;
+}
+
+#navigation_bar ul li {
+  float: left;
+  position: relative;
+}
+
+#navigation_bar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navigation_bar ul li a:hover {
+  background-color: #111;
+}
+
+/* Section-specific background colors */
+#Project_info {
+  background-color: #f0f8ff; /* Light blue */
+  padding: 20px;
+}
+
+#TEAM {
+  background-color: #FFFFFF ; /* Beige */
+  padding: 20px;
+  text-align: center;
+}
+
+#Meeting_Scheduling {
+  background-color: #16da51; /* Light goldenrod yellow */
+  padding: 20px;
+}
+
+#Resources_Documentation {
+  background-color: #ffe4e1; /* Misty rose */
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.Card_Title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Card_Description {
+  font-size: 18px;
+}
+
+.Members {
+ width: 100%;
+ max-width: 190px;
+ height: 224px;
+ border-radius: 20px;
+ background: #FFFFFF;
+ position: relative;
+ padding: 1.8rem;
+ border: 2px solid #c3c6ce;
+ transition: 0.5s ease-out;
+ overflow: visible;
+}
+.Team_Members{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.Members:hover {
+  border-color: #FFFFFF;
+  box-shadow: 0 4px 18px 0 #284B63;
+  transform: translateY(-50%, 50%);
+  opacity: 1;
+}
+.waves{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(wave.png);
+  background-size: 1000px 100px;
+}
+
+.svg{
+  width: 100%;
+  overflow: hidden;
+  gap:0px;
+  
+}
