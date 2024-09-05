@@ -1,4 +1,4 @@
-# Webpage for Cs 4366 -001 Sneior Capstone
+# Webpage for Cs 4366 -001 Senior Capstone
 
 this branch is meant to contain the code for the project's informational webpage
 it is a easy to navigate page detailing project description, team info, scheduling information, and links & documentation
