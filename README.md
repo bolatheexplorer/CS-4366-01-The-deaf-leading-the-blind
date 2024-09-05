@@ -23,7 +23,11 @@ The webpage consists of the following sections:
 
 ### File Structure
 .
+
 ├── index.html            # Main HTML file for the webpage
+
 ├── style.css             # CSS for styling the webpage
+
 ├── script.js             # JavaScript for additional functionality
+
 ├── README.md             # This README file
