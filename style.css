@@ -7,25 +7,32 @@ body {
 
 /* Style for the header */
 header{
-  background-color: #353535;
-  color: white;
+  
+  background-color: #3e3c6e;
   padding: 10px;
   text-align: center;
+  padding-bottom: 20px;
+  ;
   
 }
 
-
+#Header-title{
+  font-size: 36px;
+  padding-bottom: 13px;
+  color: white;
+}
 /* Navigation bar styles */
 #navigation_bar ul {
+  
   display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   border-radius: 9px;
-  background: linear-gradient(315deg, #393939, #303030);
-  box-shadow:  -14px -14px 28px #242424,
-               14px 14px 28px #464646;
+  background: #3e3c6e;
+  box-shadow:  25px 25px 100px #292849,
+               -25px -25px 100px #535093;
   
 }
 
@@ -44,13 +51,13 @@ header{
 }
 
 #navigation_bar ul li a:hover {
-  background-color: #9c9c9c;
+  background-color: #524f91;
 }
 
 /*SECTION STYLING*/
 #Project_info {
   outline: red dashed 1px;
-  background-color: #f0f8ff; 
+  background-color: white; 
   padding: 20px;
 }
 
@@ -62,19 +69,22 @@ header{
 
 /*MEETING AND CALENDAR STYLING*/
 #Meeting_Scheduling {
-  background-color: #cdcdcd; 
+  background-color: white; 
   padding: 20px;
 }
 
 
 #Resources_Documentation {
-  background-color: #e1e6e1; 
+  background-color: white; 
   padding: 20px;
 }
 
+#Project_info, #TEAM, #Meeting_Scheduling, #Resources_Documentation{
+  color: #3e3c6e;
+}
 
 footer {
-  background-color: #333;
+  background-color: #3e3c6e;
   color: white;
   text-align: center;
   padding: 10px;
@@ -91,14 +101,15 @@ footer {
 
 
 .Members, .link{
+
  width: 100%;
  max-width: 190px;
  height: 224px;
  border-radius: 20px;
- background: #FFFFFF;
+ background: #f3dfd4;
  position: relative;
  padding: 1.8rem;
- border: 2px solid #c3c6ce;
+ border: 2px solid #f3dfd4;
  transition: 0.5s ease-out;
  overflow: visible;
  
